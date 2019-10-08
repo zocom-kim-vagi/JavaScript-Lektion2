@@ -1,0 +1,41 @@
+body{
+        background-color: rgb(46, 44, 44);
+}
+
+
+input[type="text"] {
+        height: 34px;
+}
+
+input[type="submit"] {
+        padding: 12px;
+        background-color: #ad7474;
+        margin: 12px 0;
+        color: white;
+        font-size: 16px;
+}
+
+fieldset {
+        background-color: rgb(21, 6, 51);
+        color: white;
+        margin-top: 34px;
+        color: rgb(195, 223, 95);
+}
+legend {
+
+        font-size: 2.5rem;
+}
+
+label {
+        font-size: 2.0;
+}
+
+.radioBox {
+        font-size: 42px;
+}
+
+#result {
+        color: white;
+        font-size: 55px;
+        margin: 34px;
+}

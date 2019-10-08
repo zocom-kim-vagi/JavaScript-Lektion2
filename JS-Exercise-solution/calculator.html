@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+
+        <style>
+                body {
+                        background-color: dimgray;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                }
+        </style>
+        <link rel="stylesheet" type="text/css" href="css/calc.css">
+       <script src="js/calcylator.js"></script>
+
+</head>
+
+<body>
+
+
+        <div id="result"></div>
+
+        <form id="form" name="form" method="post">
+                <fieldset style="width: 300px;">
+                        <legend>Calculator</legend>
+                        <label for="tal1">TAL1:</label> <br />
+                        <input type="text" name="tal1" id="tal1" /> <br />
+                        <label for="tal2">TAL2:</label> <br />
+                        <input type="text" name="tal2" id="tal2" /> <br />
+                        <br>
+                        <label for="typ">Välj räknesätt</label>
+                        <br /><br />
+                        <span class="radioBox">
+                                <input type="radio" name="typ" id="typ" value="add"> + <br />
+                                <input type="radio" name="typ" id="typ" value="sub"> - <br />
+                                <input type="radio" name="typ" id="typ" value="mult"> * <br />
+                                <input type="radio" name="typ" id="typ" value="divi"> / <br />
+                        </span>
+                        <br />
+                        <label for="skicka"></label>
+                        <input type="button" name="skicka" id="skicka" value="Beräkna" onclick="calculator();" />
+
+                </fieldset>
+
+        </form>
+
+
+
+
+
+
+
+</body>
+
+</html>
